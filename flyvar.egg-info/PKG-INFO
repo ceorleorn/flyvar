@@ -1,11 +1,21 @@
-Metadata-Version: 1.0
+Metadata-Version: 2.1
 Name: flyvar
-Version: 1.0.4
+Version: 1.0.5
 Summary: A database that is convenient for version iteration
 Home-page: https://github.com/snbck/flyvar
 Author: snbckcode
 Author-email: snbckcode@gmail.com
 License: Mozilla
-Description: UNKNOWN
+Description: ## 安装
+        
+        #### 从Pip下载
+        
+        `pip install flyvar`
+        
+        ## 服务端
+        
+        
 Keywords: A database that is convenient for version iteration
 Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

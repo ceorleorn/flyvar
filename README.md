@@ -1,2 +1,8 @@
-# flyvar
-基于Python实现的版本管理数据库
+## 安装
+
+#### 从Pip下载
+
+`pip install flyvar`
+
+## 服务端
+
