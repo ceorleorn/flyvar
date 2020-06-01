@@ -1,10 +1,11 @@
 Metadata-Version: 1.0
 Name: flyvar
-Version: 1.0.2
-Summary: A database that is convenient for version iteration, not bloated
-Home-page: UNKNOWN
-Author: snbck
+Version: 1.0.4
+Summary: A database that is convenient for version iteration
+Home-page: https://github.com/snbck/flyvar
+Author: snbckcode
 Author-email: snbckcode@gmail.com
 License: Mozilla
 Description: UNKNOWN
+Keywords: A database that is convenient for version iteration
 Platform: UNKNOWN
