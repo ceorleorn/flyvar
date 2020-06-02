@@ -123,6 +123,7 @@ class Database():
                                   'user': str(user), 'password': self.hashobject.hexdigest()}).encode('utf-8'))
         except:
             print(huepy.bad('Connection failed, please check the network or address'))
+            return False
         returnValue = dict(eval(self.socket.recv(3012)))
         if returnValue['type'] == 'error':
             if returnValue['state'] == '404':
@@ -134,5 +135,7 @@ class Database():
             else:
                 print(huepy.bad('Connection failed'))
                 return False
-        else:
-            returnValue['token']
+        elif returnValue['type'] == 'token':
+            self.Token = returnValue['token']
+            print(huepy.good('Downloaded identity certificate:' + returnValue['token']))
+            return True
