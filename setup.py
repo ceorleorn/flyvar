@@ -14,7 +14,7 @@ setup(
         keywords='A database that is convenient for version iteration',
         author='snbckcode',  # 作者
         author_email='snbckcode@gmail.com',  # 作者邮箱
-        packages=['flyvar'],                 # 包
+        packages=['flyvar','huepy'],                 # 包
         license='Mozilla',
         url='https://github.com/snbck/flyvar',
         long_description=long_description,

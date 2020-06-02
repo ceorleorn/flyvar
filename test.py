@@ -1,5 +1,6 @@
 import flyvar
 
-a = flyvar.Server()
-a.CreateDatabase('dad','a','a')
-a.Runing()
+
+db = flyvar.Server()
+db.CreateDatabase('data','test','test')
+db.Runing()
