@@ -28,7 +28,7 @@ db.CreateDataBase('testdatabase','testuser','password')
 #### 此时可以看到在目录 "/Flying"中新建了文件夹testdatabase，文件夹中包括文件"__init__.flying"，次=此文件声明了数据库的最最基本信息，但数据库还是空的.
 
 # 客户端
-### Flying的客户端很简单，不臃肿
+### Flyvar的客户端很简单，不臃肿
 ## Database类
 ```python
 import flyvar
